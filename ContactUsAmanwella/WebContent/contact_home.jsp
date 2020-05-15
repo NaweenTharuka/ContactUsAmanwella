@@ -12,11 +12,11 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body> 
-        <jsp:include page="header.jsp"></jsp:include>
     
-    <id="page-top">
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <body> 
+   <jsp:include page="Header.html"></jsp:include>
+        <id="page-top">
+        <!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">AMAN CONCIERGE & CENTRAL RESERVATIONS</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -28,18 +28,20 @@
                 </div>
             </div>
         </nav>
-        <header class="masthead">
-        	<div class="container h-100">
+ -->        <header class="masthead">
+        	<div style="background-image: url('images/background.jpg');">
+           	<div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-10 align-self-end">
+                    <div class="col-lg-10 align-self-end"><br/><br/><br/><br/><br/><br/><br/><br/>
                         <h1 class="text-uppercase text-white font-weight-bold">CONTACT US</h1>
                         <hr class="divider my-4" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
                         <p class="text-white-75 font-weight-light mb-5">Our multilingual reservations team is always available to help you with your travel planning, from booking a single night to complex multi-resort itineraries</p>
-                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                     </div>
                 </div>
+            </div>
             </div>
         </header>
         <section class="page-section bg-primary" id="about">
@@ -151,7 +153,7 @@
 				
             </div>
         </section>
-        <jsp:include page="footer.jsp"></jsp:include>
+        <jsp:include page="footer.html"></jsp:include>
         
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

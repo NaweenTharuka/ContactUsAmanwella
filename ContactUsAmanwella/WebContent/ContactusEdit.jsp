@@ -29,9 +29,13 @@
 
 
 <body>
-	    <jsp:include page="header.jsp"></jsp:include>
+	    <jsp:include page="Header.html"></jsp:include>
+	    <div style="background-image: url('images/bgpic.jpg');">
+	    	<br/><br/><br/><br/><br/><br/>
+	    
 		<div class="container-contact100">
 		
+	<br/><br/><br/><br/><br/><br/>
 
 		<div class="wrap-contact100">
 			<div class="contact100-form-title" style="background-image: url(images/bg-01.jpg);">
@@ -102,8 +106,8 @@
 			</form>
 		</div>
 	</div>
-
-	 <jsp:include page="footer.jsp"></jsp:include>
+</div>
+	 <jsp:include page="footer.html"></jsp:include>
 	
 
 	<div id="dropDownSelect1"></div>

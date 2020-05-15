@@ -15,7 +15,9 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
-        <jsp:include page="header.jsp"></jsp:include>
+        <jsp:include page="Header.html"></jsp:include>
+        	<br/><br/><br/><br/><br/><br/>
+        
         <section class="page-section bg-primary" id="about">
             <div class="container">
                 <div class="row justify-content-center">
@@ -63,7 +65,7 @@
 				
             </div>
         </section>
-        <jsp:include page="footer.jsp"></jsp:include>
+        <jsp:include page="footer.html"></jsp:include>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>

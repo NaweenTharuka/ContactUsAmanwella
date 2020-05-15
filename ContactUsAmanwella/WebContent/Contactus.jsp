@@ -20,7 +20,11 @@
 </head>
 
 <body>
-	<jsp:include page="header.jsp"></jsp:include>
+	
+	<jsp:include page="Header.html"></jsp:include>
+	<div style="background-image: url('images/bgpic.jpg');">
+	
+	<br/><br/><br/><br/><br/><br/>
 	<div class="container-contact100">
 		
 
@@ -111,7 +115,8 @@
 			</form>
 		</div>
 	</div>
-	<jsp:include page="footer.jsp"></jsp:include>
+	</div>
+	<jsp:include page="footer.html"></jsp:include>
 	<div id="dropDownSelect1"></div>
 
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>

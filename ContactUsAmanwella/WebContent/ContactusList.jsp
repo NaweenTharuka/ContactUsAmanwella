@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Customer Service</title>
 
 
 
@@ -14,17 +14,18 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-
-
-
-
-
-
-
-
 </head>
-<body>
 
+<style>
+ body{
+  font-family: 'Nunito';
+  background-image:url(images/bgpic.jpg);
+  background-size:cover;
+  background-attachment:fixed;
+}
+</style>
+<body>
+		<br/><br/><br/><a href="FeedbackPdf.jsp" class="btn btn-primary" style="margin-left: 600px">Get report of all feedback</a><br/><br/><br/>
     	<table class="table table-dark" >
 						<thead>
 								<tr>
@@ -34,6 +35,7 @@
 							      <th scope="col">Phone</th>
 							      <th scope="col">Country</th>
 							      <th scope="col">Message</th>
+							      <th scope="col">Delete</th>
 							    </tr>
 							</thead>
 							<tbody>
@@ -45,10 +47,11 @@
 									<td><c:out value="${list.phone}"/></td>
 									<td><c:out value="${list.country}"/></td>
 									<td><c:out value="${list.message}"/></td>
+									<td><button type="submit" name="btn" class="btn btn-danger">Delete</button>  
+									</td>
 								</tr>
 							</c:forEach>
 							</tbody>
 					</table>
-		<a href="FeedbackPdf.jsp" class="btn btn-primary">Generate Report</a>
 </body>
 </html>
