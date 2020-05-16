@@ -53,31 +53,31 @@
 			
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
 					<span class="label-input100">Full Name:</span>
-					<input class="input100" type="text" name="name" placeholder="Enter full name" value="${obj.getName() }" disabled="disabled">
+					<input class="input100" type="text" name="name" placeholder="Enter full name" value="${obj.getName() }" disabled="disabled" required="required" title="Name is required">
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
 					<span class="label-input100">Email:</span>
-					<input class="input100" type="text" name="email" placeholder="Enter email addess" value="${obj.getEmail() }" disabled="disabled">
+					<input class="input100" type="text" name="email" placeholder="Enter email addess" value="${obj.getEmail() }" disabled="disabled" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Valid email is required: ex@abc.xyz" required="required">
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate="Phone is required">
 					<span class="label-input100">Phone:</span>
-					<input class="input100" type="text" name="phone" placeholder="Enter phone number" value="${obj.getPhone() }" disabled="disabled">
+					<input class="input100" type="text" name="phone" placeholder="Enter phone number" value="${obj.getPhone() }" disabled="disabled" required="required" title="Phone Number is required">
 					<span class="focus-input100"></span>
 				</div>
 				
 				<div class="wrap-input100 validate-input" data-validate="Phone is required">
 					<span class="label-input100">Country:</span>
-					<input class="input100" type="text" name="country" placeholder="Enter your country" value="${obj.getCountry() }" disabled="disabled">
+					<input class="input100" type="text" name="country" placeholder="Enter your country" value="${obj.getCountry() }" disabled="disabled" required="required" title="Country is required">
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate = "Message is required">
 					<span class="label-input100">Message:</span>
-					<textarea class="input100" name="message" id="myTextarea" placeholder="Your Comment..." >${obj.getMessage() }</textarea>
+					<textarea class="input100" name="message" id="myTextarea" placeholder="Your Comment..." required="required" title="Message is required">${obj.getMessage() }</textarea>
 					<span class="focus-input100"></span>
 				</div>
 				

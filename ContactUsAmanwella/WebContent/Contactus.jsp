@@ -76,31 +76,31 @@
 			
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
 					<span class="label-input100">Full Name:</span>
-					<input class="input100" type="text" name="name" placeholder="Enter full name">
+					<input class="input100" type="text" name="name" placeholder="Enter full name" required="required" title="Name is required">
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
 					<span class="label-input100">Email:</span>
-					<input class="input100" type="text" name="email" placeholder="Enter email addess">
+					<input class="input100" type="text" name="email" placeholder="Enter email addess"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Valid email is required: ex@abc.xyz" required="required">
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate="Phone Number is required">
 					<span class="label-input100">Phone:</span>
-					<input class="input100" type="text" name="phone" placeholder="Enter phone number">
+					<input class="input100" type="text" name="phone" placeholder="Enter phone number" required="required" title="Phone Number is required">
 					<span class="focus-input100"></span>
 				</div>
 				
 				<div class="wrap-input100 validate-input" data-validate="Country is required">
 					<span class="label-input100">Country:</span>
-					<input class="input100" type="text" name="country" placeholder="Enter your country">
+					<input class="input100" type="text" name="country" placeholder="Enter your country" required="required" title="Country is required">
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate = "Message is required">
 					<span class="label-input100">Message:</span>
-					<textarea class="input100" name="message" placeholder="Your Comment..."></textarea>
+					<textarea class="input100" name="message" placeholder="Your Comment..." required="required" title="Message is required"></textarea>
 					<span class="focus-input100"></span>
 				</div>
 				
@@ -116,8 +116,8 @@
 		</div>
 	</div>
 	</div>
-	<jsp:include page="footer.html"></jsp:include>
-	<div id="dropDownSelect1"></div>
+    <jsp:include page="footer.html"></jsp:include>
+ 	<div id="dropDownSelect1"></div>
 
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 	<script src="vendor/animsition/js/animsition.min.js"></script>
