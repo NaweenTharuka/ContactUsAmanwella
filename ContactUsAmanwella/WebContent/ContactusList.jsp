@@ -25,7 +25,7 @@
 }
 </style>
 <body>
-		<br/><br/><br/><a href="FeedbackPdf.jsp" class="btn btn-primary" style="margin-left: 600px">Get report of all feedback</a><br/><br/><br/>
+		<br/><br/><br/><a href="FeedbackPdf.jsp" class="btn btn-primary" style="margin-left: 600px">Get report of all feedback</a> <br/><br/> <a href="#" class="btn btn-primary" style="margin-left: 600px">Reply via Email</a><br/><br/><br/>
     	<table class="table table-dark" >
 						<thead>
 								<tr>
