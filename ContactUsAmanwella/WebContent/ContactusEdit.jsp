@@ -19,7 +19,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
-<script type="text/javascript">
+	<script type="text/javascript">
    
    	function Edit(){
    		$('input[type=text]').removeAttr('disabled');
