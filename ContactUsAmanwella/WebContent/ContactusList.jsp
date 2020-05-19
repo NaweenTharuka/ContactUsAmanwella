@@ -47,7 +47,7 @@
 									<td><c:out value="${list.phone}"/></td>
 									<td><c:out value="${list.country}"/></td>
 									<td><c:out value="${list.message}"/></td>
-									<td><button type="submit" name="btn" class="btn btn-danger">Delete</button>  
+									<td><a href="${pageContext.request.contextPath}/contactusDelete?id=${list.id}"><button type="submit" name="btn" class="btn btn-danger">Delete</button></a>  
 									</td>
 								</tr>
 							    </c:forEach>
