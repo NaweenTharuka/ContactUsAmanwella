@@ -41,30 +41,9 @@
 
 			<form class="contact100-form validate-form" action="contact_us" method="post">
 			
-			<%	
-					String status = request.getParameter("status");
-
-					if(status !=null) {
-						if(status.equals("false")) {
-							out.println("Maximum number of participants limit exceeded");
-						}
-					}
-					
-					String statusValidate=request.getParameter("statusValidate");
-					if(statusValidate != null){
-						
-						if(statusValidate.equals("false")){
-							out.println("Fill All Required Data to Processed.");
-						}
-					}
-					
-					
-				%>
-			
 				<div class="wrap-input100 validate-input" data-validate="Title is required">
 					<span class="label-input100">Title:</span>
-<!-- 					<input class="input100" type="text" name="title" placeholder="Select title">
- -->					<select name="title" type="text" style="width:390px">  
+					<select name="title" type="text" style="width:390px">  
 						<option>Mr.</option>  
 						<option>Ms.</option>  
 						<option>Mrs.</option>  
