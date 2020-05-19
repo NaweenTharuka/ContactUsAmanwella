@@ -37,8 +37,8 @@
 							      <th scope="col">Message</th>
 							      <th scope="col">Delete</th>
 							    </tr>
-							</thead>
-							<tbody>
+						</thead>
+						<tbody>
 								<c:forEach items="${list}" var="list">
 								<tr>
 									<td><c:out value="${list.id}"/></td>
@@ -50,8 +50,8 @@
 									<td><button type="submit" name="btn" class="btn btn-danger">Delete</button>  
 									</td>
 								</tr>
-							</c:forEach>
-							</tbody>
-					</table>
+							    </c:forEach>
+						</tbody>
+		</table>
 </body>
 </html>

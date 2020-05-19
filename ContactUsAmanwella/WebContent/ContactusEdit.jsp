@@ -18,16 +18,12 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-
-	<script type="text/javascript">
+<script type="text/javascript">
    
    	function Edit(){
    		$('input[type=text]').removeAttr('disabled');
    	}
    </script>
-
-
-
 <body>
 	    <jsp:include page="Header.html"></jsp:include>
 	    <div style="background-image: url('images/bgpic.jpg');">
@@ -35,7 +31,7 @@
 	    
 		<div class="container-contact100">
 		
-	<br/><br/><br/><br/><br/><br/>
+	    <br/><br/><br/><br/><br/><br/>
 
 		<div class="wrap-contact100">
 			<div class="contact100-form-title" style="background-image: url(images/bg-01.jpg);">
@@ -101,17 +97,11 @@
                      <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
                      </span></button>
                 </div>
-                
-				
-			</form>
+   			</form>
 		</div>
 	</div>
 </div>
-	 <jsp:include page="footer.html"></jsp:include>
-	
-
-	<div id="dropDownSelect1"></div>
-
+	<jsp:include page="footer.html"></jsp:include>
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 	<script src="vendor/animsition/js/animsition.min.js"></script>
 	<script src="vendor/bootstrap/js/popper.js"></script>

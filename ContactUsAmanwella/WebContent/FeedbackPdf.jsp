@@ -20,7 +20,7 @@
 <%@ page import="java.sql.SQLException"%>
 <head>
 
-<title>Gallery Report</title>
+<title>Customer Feedback </title>
 </head>
 <body>
 <%

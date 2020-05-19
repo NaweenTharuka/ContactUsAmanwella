@@ -31,9 +31,7 @@
                 </div>
             </div>
         </section>
-        
-        
-       
+                     
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="row justify-content-center">
@@ -62,7 +60,6 @@
 						<div>Sri Lanka</div>
                     </div>
                 </div>
-				
             </div>
         </section>
         <jsp:include page="footer.html"></jsp:include>
