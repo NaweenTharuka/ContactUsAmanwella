@@ -9,8 +9,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.lowagie.text.List;
-
 import Dao.ContactusDao;
 import Dao.ContactusDaoImpl;
 import Entity.Contactus;
@@ -34,13 +32,7 @@ public class contactusDelete extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 	}
-
-	private void deleteSingleContact(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String id = request.getParameter("id");	
-		contactus_dao.Delete(Integer.parseInt(id));
-		listContact(request, response);
-	}
-	
+		
 	public void listContact(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		java.util.List<Contactus> list = contactus_dao.get();
 		request.setAttribute("list", list);

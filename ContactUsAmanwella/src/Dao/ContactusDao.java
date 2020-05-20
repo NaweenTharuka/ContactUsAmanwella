@@ -9,7 +9,5 @@ public interface ContactusDao {
 	boolean Delete(int id);
 	boolean Update(int id,Contactus r);
 	Contactus GetContactusDetails(int id);
-	
-	
 	int GetMaxId();
 }
