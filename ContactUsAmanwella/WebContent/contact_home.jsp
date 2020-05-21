@@ -10,13 +10,13 @@
         <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="Contactus/css/styles.css" rel="stylesheet" />
     </head>
     
     <body> 
    <jsp:include page="Header.html"></jsp:include>
         <header class="masthead">
-        	<div style="background-image: url('images/background.jpg');">
+        	<div style="background-image: url('Contactus/images/background.jpg');">
            	<div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-10 align-self-end"><br/><br/><br/><br/><br/><br/><br/><br/>
@@ -48,8 +48,8 @@
             <div class="container-fluid p-0">
                 <div class="row no-gutters">
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg"
-                            ><img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="" />
+                        <a class="portfolio-box" href="Contactus/assets/img/portfolio/fullsize/1.jpg"
+                            ><img class="img-fluid" src="Contactus/assets/img/portfolio/thumbnails/1.jpg" alt="" />
                             <div class="portfolio-box-caption">
 								<div class="project-name">Accommodation</div>
                                 <div class="project-category text-white-50">The 30 contemporary Suites dot the hillside above the Indian Ocean, opening onto private terraces with dining tables and loungers</div>
@@ -57,8 +57,8 @@
                         >
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg"
-                            ><img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="" />
+                        <a class="portfolio-box" href="Contactus/assets/img/portfolio/fullsize/2.jpg"
+                            ><img class="img-fluid" src="Contactus/assets/img/portfolio/thumbnails/2.jpg" alt="" />
                             <div class="portfolio-box-caption">
 							<div class="project-name">Dining</div>
                             <div class="project-category text-white-50">The Restaurant and Beach Club specialise in locally-caught seafood as well as vibrant Sri Lankan curry dishes</div>
@@ -67,8 +67,8 @@
                         >
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg"
-                            ><img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="" />
+                        <a class="portfolio-box" href="Contactus/assets/img/portfolio/fullsize/3.jpg"
+                            ><img class="img-fluid" src="Contactus/assets/img/portfolio/thumbnails/3.jpg" alt="" />
                             <div class="portfolio-box-caption">
                                 <div class="project-name">Mini-bar</div>
 								<div class="project-category text-white-50">Restaurant serving Asian and Mediterranean cuisine, as well as Lounge Bar, Pool Terrace and Beach Club with grill</div>
@@ -76,8 +76,8 @@
                         >
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg"
-                            ><img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="" />
+                        <a class="portfolio-box" href="Contactus/assets/img/portfolio/fullsize/4.jpg"
+                            ><img class="img-fluid" src="Contactus/assets/img/portfolio/thumbnails/4.jpg" alt="" />
                             <div class="portfolio-box-caption">
                                 <div class="project-name">Ocean Pool Suite</div>
 								<div class="project-category text-white-50">Offering views of the sea, beach and coconut grove, the 100-square-metre (1,076-square-foot) Ocean Suites feature plunge pools in private courtyards and expansive terraces</div>
@@ -86,8 +86,8 @@
                         >
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg"
-                            ><img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="" />
+                        <a class="portfolio-box" href="Contactus/assets/img/portfolio/fullsize/5.jpg"
+                            ><img class="img-fluid" src="Contactus/assets/img/portfolio/thumbnails/5.jpg" alt="" />
                             <div class="portfolio-box-caption">
                                 <div class="project-name">Events</div>
 								<div class="project-category text-white-50">Amanwellas secluded jungle setting creates an intimate, celebratory atmosphere suited to occasions large and small</div>
@@ -96,8 +96,8 @@
                         >
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg"
-                            ><img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="" />
+                        <a class="portfolio-box" href="Contactus/assets/img/portfolio/fullsize/6.jpg"
+                            ><img class="img-fluid" src="Contactus/assets/img/portfolio/thumbnails/6.jpg" alt="" />
                             <div class="portfolio-box-caption p-3">
                                 <div class="project-name">Spa, yoga platform</div>
 								<div class="project-category text-white-50">Massages and body treatments, using all natural products, are available in the privacy of your Suite</div>
@@ -147,6 +147,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <script src="Contactus/js/scripts.js"></script>
     </body>
 </html>

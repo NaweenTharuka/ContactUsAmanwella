@@ -16,16 +16,14 @@
 
 </head>
 
-<style>
- body{
-  font-family: 'Nunito';
-  background-image:url(images/bgpic.jpg);
-  background-size:cover;
-  background-attachment:fixed;
-}
-</style>
-<body>
-		<br/><br/><br/><a href="FeedbackPdf.jsp" class="btn btn-primary" style="margin-left: 600px">Get report of all feedback</a> <br/><br/> <a href="#" class="btn btn-primary" style="margin-left: 600px">Reply via Email</a><br/><br/><br/>
+<body style="background-image: url('images/IMG_9825.JPG');
+			background-repeat: no-repeat;
+  			background-attachment: fixed;
+  			height: 500px; 
+  			background-position: center; 
+ 			background-repeat: no-repeat; 
+  			background-size: cover;">
+		<br/><br/><br/><a href="FeedbackPdf.jsp" class="btn btn-primary" style="margin-left: 600px">Get report of all feedback</a> <br/><br/> 
     	<table class="table table-dark" >
 						<thead>
 								<tr>
@@ -53,5 +51,6 @@
 							    </c:forEach>
 						</tbody>
 		</table>
+		<a href="#" class="btn btn-primary" style="margin-left: 600px">Reply via Email</a><br/><br/><br/>
 </body>
 </html>
