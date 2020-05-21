@@ -7,22 +7,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/log-reg.css">
 <link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet"
-	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <script src="https://kit.fontawesome.com/6bcee8e3da.js"></script>
-
-
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script
-	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script
-	src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <title>Login</title>
-
 <style>
-	
-			@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+		@import url(https://fonts.googleapis.com/css?family=Roboto:300);
 		
 		.login-page {
 		  width: 360px;
@@ -123,32 +115,20 @@
 		  -moz-osx-font-smoothing: grayscale;      
 		}
 	
-	</style>
-
-
-
-
-
-
-
-
-
-
-
+</style>
 </head>
 <body>
 
-	<div class="reg-log-main-div">
+<div class="reg-log-main-div">
 	<div class="mainImgDiv">
-			<img src="img/log-reg/IMG_9827.JPG">
+		<img src="img/log-reg/IMG_9827.JPG">
 	</div>
 	<div class="mainFormDiv mainFormDiv-log" >
-			<div class="trpdiv">
-				<span class="status-warning">
-				</span>
+		<div class="trpdiv">
+			<span class="status-warning"></span>
 				<form method="post" action="login_sevlet" >
-				<div class="card">
-					<div class="card-header">
+					<div class="card">
+						<div class="card-header">
 						
 						<%
 						
@@ -177,9 +157,9 @@
 							<input type="password" name="password" class="form-control" placeholder="Enter Password">
 						</div>
 					</div>
-					<div class="card-footer">
-						<input type="submit" value="Login" class="btn btn-primary">
-					</div>
+						<div class="card-footer">
+							<input type="submit" value="Login" class="btn btn-primary">
+						</div>
 					</div>	
 				</form>
 			</div>

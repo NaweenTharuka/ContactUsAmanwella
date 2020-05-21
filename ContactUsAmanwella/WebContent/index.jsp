@@ -7,24 +7,16 @@
 <title>AMANWELLA - TANGALLE</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="css/indexcss/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/indexcss/animate.css">
-    
     <link rel="stylesheet" href="css/indexcss/owl.carousel.min.css">
     <link rel="stylesheet" href="css/indexcss/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/indexcss/magnific-popup.css">
-
     <link rel="stylesheet" href="css/indexcss/aos.css">
-
     <link rel="stylesheet" href="css/indexcss/ionicons.min.css">
-
     <link rel="stylesheet" href="css/indexcss/bootstrap-datepicker.css">
     <link rel="stylesheet" href="css/indexcss/jquery.timepicker.css">
-
-    
     <link rel="stylesheet" href="css/indexcss/flaticon.css">
     <link rel="stylesheet" href="css/indexcss/icomoon.css">
     <link rel="stylesheet" href="css/indexcss/style.css">
@@ -179,117 +171,6 @@
 					</div>
 				</div>
 			</div>
-		</section>
-
-    
-
-   
-
-
-		
-		
-
-	 	
-		<!--  <section class="ftco-section ftco-menu bg-light">
-			<div class="container-fluid px-md-4">
-				<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-          	<span class="subheading">Restaurant</span>
-            <h2>Restaurant</h2>
-          </div>
-        </div>
-				<div class="row">
-        	<div class="col-lg-6 col-xl-4 d-flex">
-        		<div class="pricing-entry rounded d-flex ftco-animate">
-        			<div class="img" style="background-image: url(img/menu-1.jpg);"></div>
-        			<div class="desc p-4">
-	        			<div class="d-md-flex text align-items-start">
-	        				<h3><span>Red Orchids</span></h3>
-	        				<span class="price">$20.00</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>Red Orchids is like the new Flower Drum, with the same staff and waiters, and again they do tasty classic Sri Lankanized Chinese food at affordable rates.</p>
-	        			</div>
-        			</div>
-        		</div>
-        	</div>
-        	<div class="col-lg-6 col-xl-4 d-flex">
-        		<div class="pricing-entry rounded d-flex ftco-animate">
-        			<div class="img" style="background-image: url(img/menu-2.jpg);"></div>
-        			<div class="desc p-4">
-	        			<div class="d-md-flex text align-items-start">
-	        				<h3><span>Mintage Restaurant & Pub</span></h3>
-	        				<span class="price">$35.00</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>A chilled out place in the heart of Colombo for a nibble and drink after work with friends, which doesn't require you to dress up or shell out serious dough.</p>
-	        			</div>
-        			</div>
-        		</div>
-        	</div>
-        	<div class="col-lg-6 col-xl-4 d-flex">
-        		<div class="pricing-entry rounded d-flex ftco-animate">
-        			<div class="img" style="background-image: url(img/menu-3.jpg);"></div>
-        			<div class="desc p-4">
-	        			<div class="d-md-flex text align-items-start">
-	        				<h3><span>Flower Drum</span></h3>
-	        				<span class="price">$22.00</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>A small river named Duden flows by their place and supplies</p>
-	        			</div>
-        			</div>
-        		</div>
-        	</div>
-        	<div class="col-lg-6 col-xl-4 d-flex">
-        		<div class="pricing-entry rounded d-flex ftco-animate">
-        			<div class="img" style="background-image: url(img/menu-4.jpg);"></div>
-        			<div class="desc p-4">
-	        			<div class="d-md-flex text align-items-start">
-	        				<h3><span>Grilled Crab with Onion</span></h3>
-	        				<span class="price">$39.00</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>A small river named Duden flows by their place and supplies</p>
-	        			</div>
-        			</div>
-        		</div>
-        	</div>
-        	<div class="col-lg-6 col-xl-4 d-flex">
-        		<div class="pricing-entry rounded d-flex ftco-animate">
-        			<div class="img" style="background-image: url(img/menu-5.jpg);"></div>
-        			<div class="desc p-4">
-	        			<div class="d-md-flex text align-items-start">
-	        				<h3><span>Fried Fish Taste</span></h3>
-	        				<span class="price">$18.00</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>Very good and helthness chinese food corner.</p>
-	        			</div>
-        			</div>
-        		</div>
-        	</div>
-        	<div class="col-lg-6 col-xl-4 d-flex">
-        		<div class="pricing-entry rounded d-flex ftco-animate">
-        			<div class="img" style="background-image: url(img/menu-6.jpg);"></div>
-        			<div class="desc p-4">
-	        			<div class="d-md-flex text align-items-start">
-	        				<h3><span>Chinese Dragon Cafe</span></h3>
-	        				<span class="price">$32.00</span>
-	        			</div>
-	        			<div class="d-block">
-	        				<p>One of the oldest Chinese restaurants</p>
-	        			</div>
-        			</div>
-        		</div>
-        	</div>
-        	<div class="col-md-12 text-center ftco-animate">
-        		<!--<p><a href="#" class="btn btn-primary rounded">View All Menu</a></p>-->
-        	</div>
-        </div>
-			</div>
-		</section>-->
-
 
     <section class="ftco-section">
       <div class="container">

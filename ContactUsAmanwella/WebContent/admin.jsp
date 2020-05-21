@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -10,8 +10,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
       integrity="sha256-9mbkOfVho3ZPXfM7W8sV2SndrGDuh7wuyLjtsWeTI1Q="
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"/>
 
     <link
       rel="stylesheet"
@@ -20,7 +19,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/admin.css" />
-  </head>
+</head>
 
   <body style="background-image: url('images/IMG_9825.JPG');
 			background-repeat: no-repeat;
@@ -43,97 +42,18 @@
     <div class="pusher">
       <div class="main-content">
         <div class="ui grid stackable padded">
-          <!-- <div
-            class="four wide computer eight wide tablet sixteen wide mobile column"
-          >
-            <div class="ui fluid card">
-              <div class="content">
-                <div class="ui right floated header red">
-                  <i class="fas fa-people-carry"></i>
-                </div>
-                <div class="header">
-                  <div class="ui red header">
-                  </div>
-                </div>
-                <div class="meta">
-                </div>
-                <div class="description">
-                </div>
-              </div>
-              <div class="extra content">
-                <div class="ui two buttons">
-                  <a href="supplier_index.jsp"><div class="ui red button">Supplier Management</div></a>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- <div
-            class="four wide computer eight wide tablet sixteen wide mobile column"
-          >
-            <div class="ui fluid card">
-              <div class="content">
-                <div class="ui right floated header red">
-                  <i class="fas fa-people-carry"></i>
-                </div>
-                <div class="header">
-                  <div class="ui red header">
-                  </div>
-                </div>
-                <div class="meta">
-                </div>
-                <div class="description">
-                </div>
-              </div>
-              <div class="extra content">
-                <div class="ui two buttons">
-                 <a href="staff_servlet"><div class="ui green button">Staff Management</div></a>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- <div
-            class="four wide computer eight wide tablet sixteen wide mobile column"
-          >
-            <div class="ui fluid card">
-              <div class="content">
-                <div class="ui right floated header red">
-                  <i class="fas fa-people-carry"></i>
-                </div>
-                <div class="header">
-                  <div class="ui red header">
-                  </div>
-                </div>
-                <div class="meta">
-                </div>
-                <div class="description">
-                </div>
-              </div>
-              <div class="extra content">
-                <div class="ui two buttons">
-                  <a href="supplier_index.jsp"><div class="ui red button">Supplier Management</div></a>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <div
-            class="four wide computer eight wide tablet sixteen wide mobile column"
-          >
+          <div class="four wide computer eight wide tablet sixteen wide mobile column">
             <div class="ui fluid card">
               <div class="content">
                 <div class="ui right floated header teal">
                   <i class="icon briefcase"></i>
                 </div>
-                <div class="header">
-                 
-                </div>
-                <div class="meta">
-                  
-                </div>
+                <div class="header"></div>
+                <div class="meta"></div>
                 <div class="description">
-                  
                 </div>
-              </div>
-              <div class="extra content">
+             	</div>
+                <div class="extra content">
                 <div class="ui two buttons">
                 <div class="ui red button">
                   <a href="supplier_index.jsp"><div class="ui red button" style="color:white;">Supplier Management</div></a>
@@ -142,23 +62,15 @@
               </div>
             </div>
           </div>
-          <div
-            class="four wide computer eight wide tablet sixteen wide mobile column"
-          >
+          <div class="four wide computer eight wide tablet sixteen wide mobile column">
             <div class="ui fluid card">
               <div class="content">
                 <div class="ui right floated header teal">
                   <i class="icon briefcase"></i>
                 </div>
-                <div class="header">
-                 
-                </div>
-                <div class="meta">
-                  
-                </div>
-                <div class="description">
-                  
-                </div>
+                <div class="header"></div>
+                <div class="meta"></div>
+                <div class="description"></div>
               </div>
               <div class="extra content">
                 <div class="ui two buttons">
